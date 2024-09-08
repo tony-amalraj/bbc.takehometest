@@ -1,0 +1,468 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-http-status-code-and-response-time;make-a-get-request-to-check-status",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Make a GET request to check status",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send a GET request to \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 557123600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 951000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the response time is below 1000 milliseconds",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-http-status-code-and-response-time",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify HTTP status code and response time",
+    "tags": [],
+    "uri": "features\\scenario1.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-if-id-value-is-not-null-or-empty-and-type-field-is-always-episode;verify-if-id-value-is-not-null-or-empty-and-type-field-is-always-episode",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify if id value is not NULL or empty and type field is always episode",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send a GET request to \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149123900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the id field is never NULL",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the id field is never \"\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the type field is always \"episode\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 226000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-if-id-value-is-not-null-or-empty-and-type-field-is-always-episode",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify if id value is not NULL or empty and type field is always episode",
+    "tags": [],
+    "uri": "features\\scenario2.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-if-title-field-in-episode-is-never-null-or-empty;verify-if-title-field-in-episode-is-never-null-or-empty",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify if title field in episode is never null or empty",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send a GET request to \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143097700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3184099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the title field is never NULL",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 957400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the title field is never \"\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 727499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-if-title-field-in-episode-is-never-null-or-empty",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify if title field in episode is never null or empty",
+    "tags": [],
+    "uri": "features\\scenario3.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-that-only-one-episode-in-the-list-has-\"live\"-field-in-\"episode\"-as-true;verify-that-only-one-episode-in-the-list-has-\"live\"-field-in-\"episode\"-as-true",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify that only one episode in the list has \"live\" field in \"episode\" as true",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send a GET request to \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143322799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2842200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "only one episode has \"live\" in the episode set to true",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 731300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-that-only-one-episode-in-the-list-has-\"live\"-field-in-\"episode\"-as-true",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify that only one episode in the list has \"live\" field in \"episode\" as true",
+    "tags": [],
+    "uri": "features\\scenario4.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-that-the-transmission_start-date-value-is-before-the-transmission_end-date;verify-that-the-transmission_start-date-value-is-before-the-transmission_end-date",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify that the transmission_start date value is before the transmission_end date",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send a GET request to \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144069099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3020800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the \"transmission_start\" is before \"transmission_end\" date",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 652300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-that-the-transmission_start-date-value-is-before-the-transmission_end-date",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify that the transmission_start date value is before the transmission_end date",
+    "tags": [],
+    "uri": "features\\scenario5.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "in-the-response-headers,-verify-the-\"date\"-value;verify-the-\"date\"-value-in-the-response-headers",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify the \"Date\" value in the response headers",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send a GET request to \"https://testapi.io/api/RMSTest/ibltest\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141037800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 790300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the response header should have a valid \"date\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17611899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "in-the-response-headers,-verify-the-\"date\"-value",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "In the response headers, verify the \"Date\" value",
+    "tags": [],
+    "uri": "features\\scenario6.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "verify-http-status-code-and-error-object-properties;verify-http-status-code-and-error-object-properties",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify HTTP status code and error object properties",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I send a GET request to \"https://testapi.io/api/RMSTest/ibltest/2023-09-11\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155353600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the failed response status code should be 404",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1973500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the error object has property \"details\" and \"http_response_code\"",
+            "match": {
+              "location": "features\\stepDefinitions\\takehometest.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 940899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "verify-http-status-code-and-error-object-properties",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Verify HTTP status code and error object properties",
+    "tags": [],
+    "uri": "features\\scenario7.feature"
+  }
+]

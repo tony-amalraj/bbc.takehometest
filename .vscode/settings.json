@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Default Light Modern",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "never",
+    "cucumber.features": [
+        "features/*.feature"
+    ],
+    "cucumber.glue": [
+        "features/stepDefinitions/*.js"
+    ],
+    "cucumberautocomplete.steps": [
+        "features/stepDefinitions/*.js"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "git.enableSmartCommit": true,
+    "git.ignoreLimitWarning": true
+}

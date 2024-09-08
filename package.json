@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "cucumber API tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --format json:./reports/cucumber_report.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-amalraj/bbc.takehometest.git"
+  },
+  "author": "Tony Amalraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony-amalraj/bbc.takehometest/issues"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.0",
+    "assert": "^2.1.0",
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^5.5.1"
+  },
+  "homepage": "https://github.com/tony-amalraj/bbc.takehometest#readme"
+}
