@@ -1,16 +1,44 @@
 # bbc.takehometest
+Cucumber automation tests created using JavaScript as the step definition language, part of the BBC take home test.
 
-1. To allow this test to run the following extensions/libraries were installed:
-    1. axios 
-    2. assert
-    3. cucumber
+<u>List of prerequisite:</u> <br> 
+node.js (includes npm), cucumber-js, axios, assert and moment. 
 
-2. The feature files are stored under features folder
-3. Step definitions are written using JavaScript and stored under features/stepDefinitions folder (file name: tahehometest.js)
-4. I have split each scenario as a separate feature file to make it easier to read though in actual project implementation I would keep them all under one feature file as separate scenario sections. 
-5. All the cucumber feature files can be run using this command: npm test (this is defined in package.json under scripts)
-6. cucumber.js file was created for report generation which is current in JSON format
-7. settings.json file was created to specify the folder structure of feature files and step definitions. 
-8. When the test is completed successfully a JSON format report file will be generated and saved under the reports folder
+### Installation
 
-9. 3 manual test cases are stored under ManualTest folder in a feature file named FunctionalManualTesting.feature
+1. Create dir and clone repository
+```
+mkdir bbc.takehometest
+cd bbc.takehometest
+git clone https://github.com/tony-amalraj/bbc.takehometest.git .
+```
+
+2. Install node_modules
+```
+npm install
+```
+
+3. Execute tests
+
+```
+npm run bbctest
+
+OR
+
+./node_modules/.bin/cucumber-js features
+```
+
+
+Troubleshooting 
+* To avoid installation conflict for Cucumber-js 
+```
+#Ensure global installation is uninstalled 
+npm uninstall -g @cucumber/cucumber
+
+#Install cucumber locally
+npm install @cucumber/cucumber --save-dev
+
+#Reinstall node_modules
+rm -rf node_modules
+npm install
+```
