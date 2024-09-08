@@ -1,7 +1,7 @@
 # bbc.takehometest
 Cucumber automation tests created using JavaScript as the step definition language, part of the BBC take home test.
 
-<u>List of prerequisite:</u> <br> 
+<u>List of prerequisite and external dependencies:</u> <br> 
 node.js (includes npm), cucumber-js, axios, assert and moment. 
 
 ### Installation
